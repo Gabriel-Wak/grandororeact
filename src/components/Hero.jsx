@@ -14,7 +14,7 @@ export default function Hero() {
         className="absolute bottom-6 right-6 grid h-12 w-12 place-items-center rounded-xl bg-gold text-xl text-navy shadow-lg"
         aria-label="Falar pelo WhatsApp"
       >
-        ☎
+        
       </a>
     </header>
   )
