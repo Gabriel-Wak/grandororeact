@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply overflow-x-hidden bg-ivory text-ink font-sans;
+  }
+
+  img {
+    @apply max-w-full;
+  }
+}
+
+@layer components {
+  .section-title-kicker {
+    @apply block text-xs uppercase tracking-[0.55em] text-neutral-500;
+  }
+
+  .section-title {
+    @apply mt-4 text-center text-3xl font-light uppercase tracking-[0.35em] leading-tight md:text-5xl;
+  }
+
+  .outline-button {
+    @apply inline-flex min-h-9 items-center justify-center border border-navy/50 px-5 py-2 text-[11px] uppercase tracking-[0.22em] transition hover:bg-navy hover:text-white;
+  }
+}
